@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9047382630936120633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9047382630936120635}
+  - component: {fileID: 9047382630936120634}
+  m_Layer: 0
+  m_Name: DesignManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9047382630936120635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047382630936120633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2196972, y: 2.0282128, z: 71.61281}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9047382630936120634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047382630936120633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd63a9323a23ab24a906edad8dd241b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restartbtn: {fileID: 0}
+  menubtn: {fileID: 0}
+  cevapbtn: {fileID: 3043033890876880393, guid: 378d70958ef6dc94fb1802e12707278b, type: 3}
+  ballon1: {fileID: 0}
+  ballon2: {fileID: 0}
+  puandesign: {fileID: 0}
+  puandesign2: {fileID: 0}
+  candesign: {fileID: 0}
+  candesign1: {fileID: 0}
+  candesign2: {fileID: 0}
+  rectangleImg:
+  - {fileID: 21300000, guid: 2cd28b82cfae23c4499257bff9f82721, type: 3}
+  - {fileID: 21300000, guid: 223e993002de1ce4cba18eaec4093a3d, type: 3}
+  - {fileID: 21300000, guid: 9050ac043e851c44891d85c6b6c7730b, type: 3}
+  - {fileID: 21300000, guid: 34d642d9f19c9a1409e57ac3d5cfbb1a, type: 3}
+  - {fileID: 21300000, guid: 336ba67157d6d7543a94621b16b7a826, type: 3}
+  - {fileID: 21300000, guid: c079b6cd7219d0d42801f80f3ccfa862, type: 3}
+  - {fileID: 21300000, guid: f465385f1977bec47b2a55d1adb56252, type: 3}
+  - {fileID: 21300000, guid: 348c248bf830c534f9db5c777d21a2fd, type: 3}
+  squareImg:
+  - {fileID: 21300000, guid: ddc0f4adbb97eb94484f051624441276, type: 3}
+  - {fileID: 21300000, guid: 6e7023bf10458254ea394b1a063795d9, type: 3}
+  - {fileID: 21300000, guid: 646f45472514769419dafbfb9ce68ae6, type: 3}
+  - {fileID: 21300000, guid: cb24f65a5e05c69428cbfadd3b4b9783, type: 3}
+  - {fileID: 21300000, guid: e262e6391d25f01468f7fb0beb8774de, type: 3}
+  - {fileID: 21300000, guid: fbb49640170cd944680c9d5d3a713b4b, type: 3}
+  - {fileID: 21300000, guid: a7f23cc702950c54198f45cc64092d56, type: 3}
+  - {fileID: 21300000, guid: eea6be7f494013b4e8fb2406bbc8506f, type: 3}
+  squareRootImg:
+  - {fileID: 21300000, guid: 6826953af3118424bb4ed2900f868e74, type: 3}
+  - {fileID: 21300000, guid: 5935252a166f6804cb7fdd017ecb48d4, type: 3}
+  - {fileID: 21300000, guid: 163f607dd5d52114897fd5150dd54330, type: 3}
+  - {fileID: 21300000, guid: d0fdbb2b476146f4d9df52545c909439, type: 3}
+  - {fileID: 21300000, guid: dfa6b6438fb2da544bf594da7970c679, type: 3}
+  - {fileID: 21300000, guid: d31fa6026aa21504da88dd75c94a8a14, type: 3}
+  - {fileID: 21300000, guid: e0b243b8142265f45b110a102e22cd17, type: 3}
+  - {fileID: 21300000, guid: 0e0b5bef671c4174292b5bdd9773f014, type: 3}
+  canPiImg:
+  - {fileID: 21300000, guid: dbaceb1452f70ed49b041928eac3d787, type: 3}
+  - {fileID: 21300000, guid: c0dd7cf6177e925488f2efee5d4b2b92, type: 3}
+  - {fileID: 21300000, guid: 6538fe1853bd11146aaf311e467c7fe1, type: 3}
+  - {fileID: 21300000, guid: ddbd007b56174cc4398a0d9e1d27332b, type: 3}
+  - {fileID: 21300000, guid: b533167fb40287541a3d26a6ae181862, type: 3}
+  - {fileID: 21300000, guid: ea0804120ecc7b84996d691e1507170f, type: 3}
+  - {fileID: 21300000, guid: cfc7bbcf5c6d909478b48efec5327d2f, type: 3}
+  - {fileID: 21300000, guid: afc1b341f0fefab4bbf2573df6b0b79a, type: 3}
+  ballonsImg:
+  - {fileID: 21300000, guid: 4c0f92cde6508314895644425acff26c, type: 3}
+  - {fileID: 21300000, guid: 3f031b8a776ef3c47b96e2f6a3121f87, type: 3}
+  - {fileID: 21300000, guid: 51cb79c417bf1a248838b77a249b574b, type: 3}
+  - {fileID: 21300000, guid: b9c918fa122b848478bbe320ce723f9c, type: 3}
+  - {fileID: 21300000, guid: 183b34573d568b349a33a7279986f65a, type: 3}
+  - {fileID: 21300000, guid: bc27d40c913e5964d9bc80edb122fd4e, type: 3}
+  - {fileID: 21300000, guid: d0dc44ebdb908614fa12641bcbe4db0e, type: 3}
+  - {fileID: 21300000, guid: a26adb5fc6acee34b8bf772741c24688, type: 3}
+  d1: 0
+  d2: 0
+  d3: 0
+  d4: 1
